@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% block desc%} {% endblock desc%}
+    {% block key%} {% endblock key%}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    {% load static%}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'pageCss/Mobile/mobileSpecCss.css' %}">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>{% block title%} {% endblock title%}</title>
+  </head>
+  <body>
+    <style media="screen">
+    .search_bar{
+      width: 100%;
+      display: flex;
+      height: 55px;
+      border: 1px solid;
+      position: relative;
+      margin-bottom: 1rem;
+      border: 1px solid transparent;
+      background: #0984e3;
+      color: white;
+    }
+    .alert{
+      flex: 2;
+    }
+    #srh{
+      margin-top: 9px;
+      margin-right: 10px;
+      float: right;
+    }
+
+    #srh input{
+      width: 410px;
+      height: 35px;
+      border: 1px solid #0984e3;
+      border-radius: 2px;
+      padding: 0 0 2px 10px ;
+    }
+
+    #srh button{
+      width: 80px;
+      height: 33px;
+      color: #fff;
+      background-color: #0984e3;
+      border: 1px solid #fff;
+      border-radius: 2px;
+      padding-bottom: 2px;
+    }
+
+    #srh button:hover{
+      color: #fff;
+      border: 1px solid #fff;
+    }
+    span{
+      color: red;
+    }
+    .aff-link button{
+      width: 300px;
+      margin-left: 30px;
+    }
+    .aff-link{
+      margin-top: 20px;
+    }
+    @media (max-width: 1200px) {
+      #src{
+        position: relative;
+        left: 0px;
+        width: 50%;
+      }
+      #srh input{
+        width: 82%;
+      }
+      #srh button{
+        margin-left: 5px;
+      }
+      button{
+        width: 300px;
+      }
+      .affilated-link_flipcart{
+        margin-left:30px;
+      }
+    }
+      @media (max-width: 768px){
+        /* search_bar */
+        .alert{
+          display: none;
+        }
+        #srh{
+          width: 97%;
+          left: 20px;
+        }
+        #srh input{
+          width: 75%;
+        }
+        #srh button{
+          margin-left: 2px;
+        }
+        .aff-link button{
+          width: 90%;
+          margin-left: 0;
+          margin-top: 10px;
+        }
+        .affilated-link_flipcart{
+          margin-left: 0;
+        }
+      }
+      @media (max-width: 640px){
+        #srh{
+          width: 100%;
+          margin-left: 5px;
+        }
+        #srh input{
+          width: 73%;
+        }
+      }
+    </style>
+    <header>
+      <div class="logo">HipeIn.com</div>
+      <div class="menu-toggle"></div>
+      <nav>
+        <ul>
+          <li><a href="{% url 'home' %}" {% block acthome%} {% endblock acthome%}>Home</a></li>
+          <li><a href="{% url 'mobile' %}"{% block actmob%} {% endblock actmob%}>Mobile</a></li>
+          <li><a href="{% url 'laptop' %}"{% block actlap%} {% endblock actlap%}>Laptops</a></li>
+          <li><a href="{% url 'music' %}"{% block actmus%} {% endblock actmus%}>Music</a></li>
+          <li><a href="{% url 'article' %}"{% block actart%} {% endblock actart%}>Article</a></li>
+          <li><a href="{% url 'about' %}"{% block actab%} {% endblock actab%}>About</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+    </header>
+    <!-- greet-user -->
+    <div class="search_bar">
+      <div class="alert">
+        Hey, User Welcome Back to our Website.
+      </div>
+      <form id="srh" method="get" action="/search">
+        <input type="text" name="search" class="input" id="search-input" placeholder="Mobile, Laptop or Music">
+        <button type="submit" class="button">search</button>
+      </form>
+    </div>
+    {% block content%}  {% endblock content%}
+          <div class="sidebar">
+          <style>
+            .sidebar{
+              top:150px;
+            }
+          </style>
+        <!-- <h3 class="lt-title">Headline</h3> -->
+        <!-- 1 -->
+        <div class="headline">
+          <img src="xiaomi.jpg" alt="">
+          <div class="headline-text">
+            <a href="#"><h6 class="headline-title">hey, i am rohit kumar and i from jamshedpur i am good boy how are u i am richest </h6></a>
+            <p class="headline-date">16 July 2020</p>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="headline">
+          <img src="xiaomi.jpg" alt="">
+          <div class="headline-text">
+            <a href="#"><h6 class="headline-title">hey, i am rohit kumar and i from jamshedpur i am good boy how are u i am richest </h6></a>
+            <p class="headline-date">16 July 2020</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="headline">
+          <img src="xiaomi.jpg" alt="">
+          <div class="headline-text">
+            <a href="#"><h6 class="headline-title">hey, i am rohit kumar and i from jamshedpur i am good boy how are u i am richest </h6></a>
+            <p class="headline-date">16 July 2020</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="headline">
+          <img src="xiaomi.jpg" alt="">
+          <div class="headline-text">
+            <a href="#"><h6 class="headline-title">hey, i am rohit kumar and i from jamshedpur i am good boy how are u i am richest </h6></a>
+            <p class="headline-date">16 July 2020</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="headline">
+          <img src="xiaomi.jpg" alt="">
+          <div class="headline-text">
+            <a href="#"><h6 class="headline-title">hey, i am rohit kumar and i from jamshedpur i am good boy how are u i am richest </h6></a>
+            <p class="headline-date">16 July 2020</p>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="headline">
+          <img src="xiaomi.jpg" alt="">
+          <div class="headline-text">
+            <a href="#"><h6 class="headline-title">hey, i am rohit kumar and i from jamshedpur i am good boy how are u i am richest </h6></a>
+            <p class="headline-date">16 July 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% block specs%}  {% endblock specs%}
+
+    <footer>
+      <div class="footer_info">
+        <h2 class="footer_logo">HipeIn.com</h2>
+        <p class="footer_about">Our Foremost motive is to serve you with correct product  review and price info. So, that this marketing arrangment can genearte you with honest purchases.</p>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+      </div>
+      <div class="product">
+        <h2 class="product_text">Product</h2>
+        <a class="product_link" href="#">Mobile</a><br>
+        <a class="product_link" href="#">Laptops</a><br>
+        <a class="product_link" href="#">Music</a><br>
+        <a class="product_link" href="#">News</a><br>
+        <a class="product_link" href="#">Blogs</a>
+      </div>
+      <div class="footer_link">
+        <h2 class="contact_us">Contact Us</h2>
+        <p><i class="fa fa-phone" aria-hidden="true"> 8340261943</i></p>
+        <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> rohitkr0036@gmail.com</a>
+      </div>
+      <div class="copyright">
+        <p class="copyright_text">copyright &copy; | HipeIn.com 2020 | design by Rohit Raj</p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.menu-toggle').click(function(){
+          $('.menu-toggle').toggleClass('active')
+          $('nav').toggleClass('active')
+        })
+      })
+      </script>
+      <script>
+        $(document).ready(function() {
+          $('.card,.link1,.link2,.link3,.link4,.link5').hover(
+              function(){
+                $(this).animate({
+                  marginTop:"-=.3%",
+                },200);
+              },
+              function(){
+                $(this).animate({
+                  marginTop:"+=.3%"
+                },200);
+              }
+            );
+            $('.card').hover(
+                function(){
+                  $(this).animate({
+                    marginTop:"-=2%",
+                  },200);
+                },
+                function(){
+                  $(this).animate({
+                    marginTop:"+=2%"
+                  },200);
+                }
+            );
+          });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{% extends 'page/basic.html' %}
+  {% load static %}
+   {% block css%} <link rel="stylesheet" href="{% static 'pageCss/mobile_pageCss.css' %}">{% endblock css%}
+    {% block title%}search result{% endblock title%}
+
+    {% block content%}
+    {% for xaiomi in mobiles %}
+    <div class="content">
+      <div class="content_body">
+        <div class="content_img">
+          <img  src="{% static 'image/mobile/mi/xiaomi.jpg' %}" alt="">
+        </div>
+        <div class="content_info">
+            <h1 class="content_tittle"><span>Review</span> {{xaiomi.title}}</a></h1>
+          <p class="content_text">{{xaiomi.description}}</p>
+          <a href='mobile/{{xaiomi.SubCategories}}' class="content_spec" class="">full specs</a>
+          <p >At   <img src="image/affiliate/amazon.png" alt=""><strong>  just for 199</strong><a href="#" class="affilated-link_amazon"><button type="button" class="btn btn-success">Buy Now</button></a></p>
+          <p >At   <img src="image/affiliate/flipkart.png" alt=""><strong>  just for 199</strong><a href="#" class="affilated-link_flipcart"><button type="button" class="btn btn-success">Buy Now</button></a></p>
+        </div>
+      </div>
+    </div>
+    {% endfor%}
+{% endblock content%}
