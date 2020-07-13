@@ -8,7 +8,7 @@ class product(models.Model):
     SubCategories = models.CharField(max_length=60, default='')
     slug          = models.CharField(max_length=130)
     date          = models.DateField()
-    image         = models.ImageField(upload_to='image/mobile', default='')
+    image         = models.ImageField(upload_to='product-image', default='')
 
     def __str__(self):
         return self.name

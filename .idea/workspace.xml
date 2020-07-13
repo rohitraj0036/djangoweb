@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a210721-7b05-43c9-8915-06912e3852a6" name="Default Changelist" comment="" />
+    <list default="true" id="0a210721-7b05-43c9-8915-06912e3852a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/blog/best-top-10/best-top-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/blog/best-top-10/best-top-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/blog/camera_15k/camera-15k.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/blog/camera_15k/camera-15k.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/blog/mobile_10k/mobile_10k.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/blog/mobile_10k/mobile_10k.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/blog/pubg_mobile/pubg.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/blog/pubg_mobile/pubg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/mi/mi_page/mi_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/mi/mi_page/mi_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/oneplus/oneplus_page/OnePlus .html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/oneplus/oneplus_page/OnePlus .html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/realme/realme_page/realme_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/realme/realme_page/realme_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/samsung/samsung_page/samsung.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/samsung/samsung_page/samsung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/vivo/vivo_page/vivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/mobile/vivo/vivo_page/vivo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/page/Home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/page/Home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/page/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/page/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/page/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/page/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limbo/affiliate/templates/page/mobile_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/limbo/affiliate/templates/page/mobile_page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +31,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dluyXBxoLfa6faPYn9HyhOlmJD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,10 +64,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593877659889" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594231404333">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594488242413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594231404333" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594488242413" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593943329760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -21,9 +21,14 @@ def article(request):
 
 def search(request):
     srh = request.GET['search']
-    mobiles = product.objects.filter(name__icontains=srh)
-    print(mobiles)
-    params = {'mobiles':mobiles}
+    if len(srh) > 30:
+        products = []
+    elif len(srh) < 4:
+        products = []
+    else:
+        products = product.objects.filter(name__icontains=srh)
+
+    params = {'products': products, 'search':srh}
     return render(request, "page/search.html",params)
 
 def about(request):

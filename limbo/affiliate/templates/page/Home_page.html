@@ -60,31 +60,31 @@
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card">
-            <img src="{% static 'image/mobile/mi/xiaomi.jpg' %}" class="card-img-top" alt="...">
+            <img src="{% static 'image/mobile/pubg/PUBG-mobile.jpg'%}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Read More...</a>
+              <h5 class="card-title">PUBG mobile under 20,000-INR</h5>
+              <p class="card-text">Now a day world most popular mobile game is PUBG, top 10 mobiles list are give below which can easily support PUBG without any lag.</p>
+              <a href="{% url 'pubg'%}" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
         <div class="col mb-4">
           <div class="card card1">
-            <img src="{% static 'image/mobile/mi/xiaomi.jpg' %}" class="card-img-top" alt="...">
+            <img src="{% static 'image/mobile\10k\10k.jpg '%}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Read More...</a>
+              <h5 class="card-title">Best smartphone under 10,000-INR</h5>
+              <p class="card-text">There are some smartphone in the market that are good within in range of 7,000-10,000 INR...</p><br>
+              <a href="{% url 'mobile10k'%}" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
         <div class="col mb-4">
           <div class="card card2">
-            <img src="{% static 'image/mobile/mi/xiaomi.jpg' %}" class="card-img-top" alt="...">
+            <img src="{% static 'image/mobile/camera-15k/photo-camera.jpg'%}" class="card-img-top" style="height: 218px;" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Read More...</a>
+              <h5 class="card-title">Best camera mobile under 15,000-INR</h5>
+              <p class="card-text">For most of the buyers camera played an important role in mobile, to atttract the customers...</p>
+              <a href="{% url 'camera15k'%}" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -103,11 +103,13 @@
         </div>
         <div class="content_info">
           <h1 class="content_tittle"><span>REVIEW</span> Samsung Galaxy S20+: 8/128GB for 77,999-INR Watch Full review-<a href="http://www.youtube.com">http://www.youtube.com </a></h1>
-          <p class="content_text">Samsung Release his new smartphone <span>Samsung Galaxy S20+</span> in india starting from <span>77,999-INR</span>. Samsung S20+ Available at <span>amanzon</span> in lowest prices. This smartphone comes with single variant i.e. 8/128GB with colour options like Cosmic Black, Cosmic Grey, Cloud Blue, Cloud White, Aura Red, Aura Blue. The smart -phone is powered by the <span>Exynos 990 (7 nm+) - Global</span> and Non-removable Li-Po 4500 mAh battery.it supports Fast charging of 25W. </p>
-          <a href="C:\Users\ASUS\Desktop\limbo\page\template\Mobile\mobile.html" class="content_spec" class="">Full Specificaton</a>
+          <p class="content_text">Samsung Release his new smartphone <span>Samsung Galaxy S20+</span> in india starting from <span>77,999-INR</span>. Samsung S20+ Available at <span>amazon</span> in lowest prices. This smartphone comes with single variant i.e. 8/128GB with colour options like Cosmic Black, Cosmic Grey, Cloud Blue, Cloud White, Aura Red, Aura Blue. The smart -phone is powered by the <span>Exynos 990 (7 nm+) - Global</span> and Non-removable Li-Po 4500 mAh battery.it supports Fast charging of 25W. </p>
+          <a href="{% url 's20plus'%}" class="content_spec">Full Specificaton</a>
           <p></p>
           <a href="#" class="affilated-link_amazon"><button type="button" class="btn btn-primary">Click here to Buy form amazon</button></a>
           <a href="#" class="affilated-link_flipcart"><button type="button" class="btn btn-outline-primary">Click here for current price </button></a>
+          <p></p><br>
+          <p></p>
          </div>
       </div>
     </div>
@@ -120,11 +122,12 @@
         <div class="content_info">
           <h1 class="content_tittle"><span>REVIEW</span>OnePlus 8 Pro: 8/128GB for Rs.54,999 Watch Full review-<a href="http://www.youtube.com">http://www.youtube.com </a></h1>
           <p class="content_text">OnePlus Release his new flagship smartphone <span>OnePlus 8 Pro</span> in india starting from <span>Rs.54,999</span>. OnePlus is available at <span>Amazon</span>. This smartphone comes with 2 variants like 8/128GB, 12/256GB UFS 3.0 storage technology with colour options like Glacial Green, Ultramarine Blue and Onyx Black. The smartphone is powered by <span>Qualcomm Snapdragon 865 (7 nm+) </span> and Non-removable Li-Po 4510 mAh battery that supports Wrap Charge 30T (5V/6A) and Wrap Charge 30 Wireless technologies which can charge 50% in just 23 min. It comes with the 5G chipset:X55 which supports 5G nework.  </p>
-          <a href="{% url 'OnePlus_8pro'%}" class="content_spec" class="">Full Specificaton</a>
+          <a href="{% url 'OnePlus_8pro'%}" class="content_spec">Full Specificaton</a>
           <p></p>
           <a href="#" class="affilated-link_amazon"><button type="button" class="btn btn-primary">Click here to Buy form amazon</button></a>
           <a href="#" class="affilated-link_flipcart"><button type="button" class="btn btn-outline-primary">Click here for current price </button></a>
-          </div>
+          <p></p>
+        </div>
       </div>
     </div>
     <!-- 3 -->
@@ -136,10 +139,11 @@
         <div class="content_info">
           <h1 class="content_tittle"><span>REVIEW</span> Realme X50 Pro 5G: 6/128GB for 39999 Watch Full review-<a href="http://www.youtube.com">http://www.youtube.com </a></h1>
           <p class="content_text">Realme Release his new smartphone <span>Realme X50 Pro 5G</span> in india starting from <span>39999</span>. Realme X50 Pro Available at <span>flipkart</span> in lowest prices. This smartphone coming with 4 variants like 6/128GB, 8/128GB, 8/256GB, 12/256GB with colour options like A Moss Green, Rust Red. The smart -phone is powered by the <span>Qualcomm SM8250 Snapdragon 865 (7 nm+)</span> and Non-removable Li-Po 4200 mAh battery. Fast charging 65W, 100% in 35 min and SuperDart Flash Charge. In Realme X50 Pro it has support for 5G nework.  </p>
-          <a href="{% url 'realmeX50pro' %}" class="content_spec" class="">Full Specificaton</a>
+          <a href="{% url 'realmeX50pro' %}" class="content_spec" >Full Specificaton</a>
           <p></p>
           <a href="#" class="affilated-link_amazon"><button type="button" class="btn btn-primary">Click here to Buy form amazon</button></a>
           <a href="#" class="affilated-link_flipcart"><button type="button" class="btn btn-outline-primary">Click here for current price </button></a>
+          <p></p><br>
          </div>
       </div>
     </div>
@@ -151,11 +155,12 @@
        </div>
        <div class="content_info">
          <h1 class="content_tittle"><span>REVIEW</span> OnePlus 8: 8/128GB for Rs.41,999 Watch Full review-<a href="http://www.youtube.com">http://www.youtube.com </a></h1>
-         <p class="content_text">OnePlus Release his brand new <span>OnePlus 8</span> in india on  2020, April 14 and it starting from <span> Rs.41,999</span>. OnePlus 8 is available at <span>Amazon</span> in lowest price. This smartphone comes with 2 variants like 128GB 6GB RAM and 128GB 8GB RAM with UFS 3.0 storage technology. It is available at 3 colour options like	Glacial Green, Interstellar Glow and Onyx Black. The smart-phone is powered by the <span>Qualcomm Snapdragon 865 (7 nm+)</span> and   Non-removable Li-Po 4510 mAh battery that supports Wrap Charge 30T (5V/6A) which can charge 50% in just 23 min. It comes with the 5G chipset:X55 which supports 5G nework.</p>
-         <a href="{% url 'OnePlus_8'%}" class="content_spec" class="">Full Specificaton</a>
+         <p class="content_text">OnePlus Release his brand new <span>OnePlus 8</span> in india on  2020, April 14 and it starting from <span> Rs.41,999</span>. OnePlus 8 is available at <span>Amazon</span> in lowest price. This smartphone comes with 2 variants like 128GB 6GB RAM and 128GB 8GB RAM. It is available at 3 colour options like	Glacial Green, Interstellar Glow and Onyx Black. The smart-phone is powered by the <span>Qualcomm Snapdragon 865 (7 nm+)</span> and   Non-removable Li-Po 4510 mAh battery that supports Wrap Charge 30T (5V/6A) which can charge 50% in just 23 min. It comes with the 5G chipset:X55 which supports 5G nework.</p>
+         <a href="{% url 'OnePlus_8'%}" class="content_spec">Full Specificaton</a>
          <p></p>
          <a href="#" class="affilated-link_amazon"><button type="button" class="btn btn-primary">Click here to Buy form amazon</button></a>
          <a href="#" class="affilated-link_flipcart"><button type="button" class="btn btn-outline-primary">Click here for current price </button></a>
+         <p></p><br>
        </div>
      </div>
    </div>
@@ -173,11 +178,12 @@
          <a href="#" class="affilated-link_amazon"><button type="button" class="btn btn-primary">Click here to Buy form amazon</button></a>
          <a href="#" class="affilated-link_flipcart"><button type="button" class="btn btn-outline-primary">Click here for current price </button></a>
          <p></p><br>
+         <p></p>
        </div>
      </div>
    </div>
     <!-- card show2 -->
-    <div class="card-slide">
+    <!-- <div class="card-slide">
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card card2">
@@ -210,5 +216,5 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 {% endblock content%}
